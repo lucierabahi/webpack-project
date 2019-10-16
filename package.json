@@ -8,9 +8,25 @@
     },
     "author": "",
     "license": "ISC",
+    "babel": {
+        "presets": [
+            "env",
+            "react"
+        ]
+    },
     "devDependencies": {
+        "@babel/core": "^7.6.4",
+        "@babel/preset-env": "^7.6.3",
+        "babel-loader": "^8.0.6",
+        "babel-preset-react": "^6.24.1",
+        "eslint": "^6.5.1",
+        "eslint-loader": "^3.0.2",
         "webpack": "^4.41.2",
         "webpack-cli": "^3.3.9",
         "webpack-dev-server": "^3.8.2"
+    },
+    "dependencies": {
+        "react": "^16.10.2",
+        "react-dom": "^16.10.2"
     }
 }
